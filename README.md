@@ -21,12 +21,12 @@ This project implements and compares four search algorithms on ordered integer a
 gcc PR1code.c -o search
 ./search
 
-Test Cases
+## Test Cases
 The program tests the following input sizes:
 
 N = 100, 500, 1000, 2000, 4000, 6000, 8000, 10000
 
-Results
+## Results
 	N	SeqIter	SeqRecur	BinIter	BinRecur
 	100	0.002938	0.011733	0.000237	0.000374
 	500	0.002591	0.010648	0.000459	0.000687
@@ -38,12 +38,12 @@ Results
 	10000	0.002958	0.011784	0.000783	0.001099
 
 
-Complexity Analysis
+## Complexity Analysis
 Algorithm	Time Complexity	Space Complexity
 Iterative Sequential Search	O(N)	O(1)
 Recursive Sequential Search	O(N)	O(N)
 Iterative Binary Search	O(log N)	O(1)
 Recursive Binary Search	O(log N)	O(log N)
 
-Author
+## Author
 杨忆南
